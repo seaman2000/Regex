@@ -2,8 +2,8 @@ import re
 
 phone_numbers = input()
 
-pattern =
+pattern = r'\+359 \d{1} \d{3} \d{4}|\+359-\d{1}-\d{3}-\d{4}'
 
-result = re.findall()
+result = re.findall(pattern, phone_numbers)
 
-print(result)
+print(', '.join(result))
