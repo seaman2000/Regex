@@ -2,7 +2,7 @@ import re
 
 tags = input()
 
-pattern = r''
+pattern = r'(?<=<)[a-z]{3,}(?=>)'
 
 valid_tags = re.findall(pattern, tags)
 
