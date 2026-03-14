@@ -2,7 +2,7 @@ import re
 text = input()
 searched_word = input()
 
-pattern = fr'{searched_word}'
+pattern = fr'\b{searched_word}\b'
 
 result = re.findall(pattern, text, re.IGNORECASE)
 
