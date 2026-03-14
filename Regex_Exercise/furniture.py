@@ -18,8 +18,8 @@ while True:
         total_cost += float(price) * int(quantity)
         bought_furniture.append(furniture)
 
-print(f"Bought furniture:\n"
-      f"{'\n'.join(bought_furniture)}")
+print("Bought furniture:")
+for furniture in bought_furniture:
+    print(furniture)
 
-print(f"Total money spend:\n"
-      f"{total_cost:.2f}")
+print(f"Total money spend: {total_cost:.2f}")
