@@ -2,7 +2,7 @@ import re
 
 text = input()
 
-pattern = r''
+pattern = r'\b_([A-Za-z\d]+)\b'
 
 found_names = re.findall(pattern, text)
 
