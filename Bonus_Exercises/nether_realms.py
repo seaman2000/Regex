@@ -10,7 +10,7 @@ demon_dict = {}
 for name in demon_names:
     result = re.findall(pattern_for_name, name)
     demon_health = 0
-    demon_dict[]
+
     for char in result:
         demon_health += ord(char)
 
@@ -24,10 +24,10 @@ for name in demon_names:
             damage_sum *= 2
         elif operator == "/":
             damage_sum /= 2
-    damage_sum, 
-for demon in sorted(demon_names):
+    demon_dict[name] = demon_health, damage_sum
 
-    print(f"{demon} - {health points} health, {damage points} damage")
+for demon in sorted(demon_dict.keys()):
+    print(f"{demon} - {demon[0]} health, {demon[1]} damage")
 
 
 
