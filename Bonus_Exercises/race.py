@@ -14,15 +14,17 @@ while line != "end of race":
     if found_name in participants:
         distance = re.findall(pattern_for_numbers, line)
         if distance:
-            distance = [int(meters) for meters in distance]
+            distance = sum([int(meters) for meters in distance])
             if found_name in run_distance_and_name.keys():
-                run_distance_and_name[found_name] += sum(distance)
+                run_distance_and_name[found_name] += distance
             else:
-                run_distance_and_name[found_name] = sum(distance)
+                run_distance_and_name[found_name] = distance
 
     line = input()
+sorted_names = sorted(run_distance_and_name, key=lambda name: run_distance_and_name[name], reverse=True)
 
-run_distance_and_name = sorted(run_distance_and_name)
-for name in run_distance_and_name:
-    print(f"first place: {name}")
+print(f"1st place: {sorted_names[0]}")
+print(f"2nd place: {sorted_names[1]}")
+print(f"3rd place: {sorted_names[2]}")
+
 
