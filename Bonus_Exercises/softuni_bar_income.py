@@ -2,7 +2,7 @@ import re
 
 line = input()
 total_income = 0.0
-pattern = r"%([A-Z][a-z]+)%(?:\w+)?<(\w+)>(?:\w+)?\|(\d+)\|(?:\w+)?(\d+(?:\.\d+)?)\$"
+pattern = r"%([A-Z][a-z]+)%(?:\w+)?<(\w+)>(?:\w+)?\|(\d+)\|(?:[A-Za-z]+)?(\d+(?:\.\d+)?)\$"
 
 while line != "end of shift":
     result = re.search(pattern, line)
