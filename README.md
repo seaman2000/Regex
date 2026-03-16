@@ -43,11 +43,6 @@ These tasks are used to:
 - Test understanding of regex behavior
 - Practice alternative solutions and optimizations
 
-## Technologies Used
-
-- **Python 3**
-- **re (Regular Expressions module)**
-
 ## Goal
 
 The goal of this section is to build a solid understanding of how **regular expressions work in Python** and how they can be used to efficiently process and analyze text.
