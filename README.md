@@ -27,8 +27,8 @@ These tasks typically involve:
 - Processing matches and building program logic
 - Real-world style parsing problems
 
-### Bonus Exercise
-The **Bonus Exercise** tasks are optional but more challenging problems that help deepen the understanding of regex and problem solving.
+### Bonus Exercises
+The **Bonus Exercises** are optional but more challenging problems that help deepen the understanding of regex and problem solving.
 
 They usually require:
 - More advanced regex patterns
