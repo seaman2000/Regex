@@ -1,4 +1,4 @@
-# Python Fundamentals – Regular Expressions
+# 🐍 Python Fundamentals – Regular Expressions
 
 This section contains tasks and exercises related to **Regular Expressions (Regex)** from the **Python Fundamentals** course.
 
