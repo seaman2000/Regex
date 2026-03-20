@@ -12,3 +12,4 @@ text = re.sub(text_pattern, '', content)
 print(f"Title: {title}\n"
       f"Content: {text}")
 
+
