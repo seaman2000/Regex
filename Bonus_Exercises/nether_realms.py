@@ -5,6 +5,7 @@ demon_names = re.split(r'\s*,\s*', input())
 pattern_for_name = r'[^0-9\+\-\*\/.]'
 pattern_for_damage = r'[+-]?\d+(?:\.\d+)?'
 pattern_for_divide_or_multiply = r'[*]|[/]'
+
 demon_dict = {}
 
 for name in demon_names:
