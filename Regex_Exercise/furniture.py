@@ -3,7 +3,7 @@ import re
 bought_furniture = []
 total_cost = 0.0
 
-pattern = r">>\b([A-Za-z]+)<<(\d+(?:[\.]\d+)?)!(\d+)\b"
+pattern = r"^>>([A-Za-z]+)<<(\d+(?:\.\d+)?)!(\d+)$"
 
 while True:
 
